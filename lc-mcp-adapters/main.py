@@ -1,6 +1,13 @@
-def main():
+import os
+import asyncio
+from dotenv import load_dotenv
+load_dotenv()
+
+
+
+async def main():
     print("Hello from lc-mcp-adapters!")
 
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
